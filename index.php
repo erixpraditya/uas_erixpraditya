@@ -1,3 +1,7 @@
+<?php
+include_once("ceklogin.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +20,7 @@
         <div class="col-6 m-auto">
             <div class="card">
         <div class="card-header text-center">
-            <h3>Sistem Informasi Mahasiswa</h3>
+            <h3>Manajemen Data Karyawan</h3>
         </div>
         <div class="card-body text-center">
                 <h4>Selamat Datang</h4>
