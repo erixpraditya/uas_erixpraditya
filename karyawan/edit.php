@@ -54,7 +54,7 @@ include_once('../navbar.php');
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Divisi</label>
-                            <input type="text" value="<?=$data['id_divisi']?>" name="id_divisi" class="form-control" id="exampleInputPassword1">
+                            <input type="text" value="<?=$data['nama_divisi']?>" name="nama_divisi" class="form-control" id="exampleInputPassword1">
                         </div>
                         <button type="submit" class="btn btn-primary">Update</button>
                     </form>

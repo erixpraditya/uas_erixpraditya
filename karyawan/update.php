@@ -7,10 +7,9 @@
     $nama_karyawan = $_POST['nama_karyawan'];
     $posisi = $_POST['posisi'];
     $id_divisi = $_POST['id_divisi'];
-    $foto = $_FILES['foto'];
 
     #3. Menulis query
-    $sunting = "UPDATE tabel_karyawan SET id_karyawan='$id_karyawan', nama_karyawan='$nama_karyawan', posisi='$posisi', id_divisi='$id_divisi', foto='$foto' WHERE id_karyawan='$id_karyawan'"; 
+    $sunting = "UPDATE tabel_karyawan SET id_karyawan='$id_karyawan', nama_karyawan='$nama_karyawan', posisi='$posisi', id_divisi='$id_divisi' WHERE id_karyawan='$id_karyawan'"; 
     
     #4. Jalankan query
     $proses = mysqli_query($koneksi, $sunting);
